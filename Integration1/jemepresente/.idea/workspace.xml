@@ -22,6 +22,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Cesar\Documents\GitHub\AEC_Front_End\Integration1\jemepresente" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -44,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573432414311</updated>
-      <workItem from="1573432415508" duration="918000" />
+      <workItem from="1573432415508" duration="2161000" />
     </task>
     <servers />
   </component>
