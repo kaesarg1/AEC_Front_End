@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d566de5b-6596-4834-86b0-7f447fdd39fb" name="Default Changelist" comment="" />
+    <list default="true" id="b161d93c-9546-4eef-8ac1-c58f700ef883" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Integration1/jemepresente/etudes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/jemepresente/loisirs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/jemepresente/one page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/jemepresente/reve.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/jemepresente/sports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapitre 2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapitre 2/js/Q1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapitre 2/js/Q2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapitre 2/js/Q3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapitre 2/js/Q4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integration1/jemepresente/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Integration1/jemepresente/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integration1/jemepresente/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Integration1/jemepresente/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,23 +30,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1TRoktMznU29MujTBygtteQSenc" />
+  <component name="ProjectId" id="1Td2tMhFdhTSzNF0GkZNnk4lzNK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Cesar\Documents\GitHub\AEC_Front_End\Integration1\jemepresente" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,12 +61,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d566de5b-6596-4834-86b0-7f447fdd39fb" name="Default Changelist" comment="" />
-      <created>1573432414311</created>
+      <changelist id="b161d93c-9546-4eef-8ac1-c58f700ef883" name="Default Changelist" comment="" />
+      <created>1573775865031</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573432414311</updated>
-      <workItem from="1573432415508" duration="2161000" />
+      <updated>1573775865031</updated>
+      <workItem from="1573775866159" duration="9261000" />
     </task>
     <servers />
   </component>
@@ -69,9 +78,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
