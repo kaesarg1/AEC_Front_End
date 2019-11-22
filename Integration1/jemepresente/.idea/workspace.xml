@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d566de5b-6596-4834-86b0-7f447fdd39fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/etudes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loisirs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reve.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation1/Chapitre 2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programmation1/Chapitre 2/js/Q1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programmation1/Chapitre 2/js/Q9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation1/Chapitre 2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation1/Chapitre 2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation1/Chapitre 2/js/Q5.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation1/Chapitre 2/js/Q5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation1/Chapitre 2/js/Q6.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation1/Chapitre 2/js/Q6.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +68,7 @@
       <workItem from="1573432415508" duration="2161000" />
       <workItem from="1573611090670" duration="5410000" />
       <workItem from="1573775002735" duration="1412000" />
+      <workItem from="1574379190821" duration="268000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,31 @@
+/* TestCSS.css */
+
+/* Programmé par Cesar Franco */
+
+/* Le 21 nov 2019 */
+
+
+body {background: url("../img/480566-web_development-minimalism.jpg") no-repeat center;
+
+    margin:auto; background-color: #131313; text-align: center;}
+
+h1
+
+{
+font: size: 36px;
+    color: #616161;
+  ;
+
+
+}
+h4
+{color: darkred;
+}
+
+p {
+
+     color: #616161;
+
+
+ }
+table { border: 1px solid black; text-align: center;}
