@@ -8,7 +8,7 @@ var util;
 var mot;
 
 
-nom= Number(prompt("Entrez votre nom:"));
+nom= (prompt("Entrez votre nom:"));
 util= Number(prompt("Entrez le nom d'utilisateur:"));
 mot= Number(prompt("Entrez le mot de passe:"));
 
