@@ -1,0 +1,47 @@
+.textvert {
+    color: green;
+}
+
+.textrouge {
+    color: red;
+}
+
+
+.backblue1 {
+    background-color: blue;
+
+    color: black;
+}
+
+.backblue2 {
+    background-color: blue;
+    color: grey;
+}
+.backblue3 {
+    background-color: blue;
+    color: orangered;
+}
+.backvert1 {
+    background-color: green;
+    color: black;
+}
+.backvert2 {
+    background-color: green;
+    color: grey;
+}
+.backvert3 {
+    background-color: green;
+    color: orangered;
+}
+.backrouge1 {
+    background-color: red;
+    color: black;
+}
+.backrouge2 {
+    background-color: red;
+    color: grey;
+}
+.backrouge3 {
+    background-color: red;
+    color: orangered;
+}

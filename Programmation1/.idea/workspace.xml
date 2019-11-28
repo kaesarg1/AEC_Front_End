@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b161d93c-9546-4eef-8ac1-c58f700ef883" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapitre 2/js/Q11.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapitre 2/js/Q12.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapitre 2/js/Q13.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapitre 2/js/Q14.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapitre 2/js/Q15.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapitre 2/js/Q16.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapitre 2/js/Q17.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapitre 2/js/Q18.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapitre 2/js/Q19.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapitre 2/js/Q20.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapitre 2/js/Q21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapitre 2/js/Q22.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapitre 2/js/Q23.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapitre 2/js/Qcode suivant.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapitre 2/js/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Integration1/jemepresente/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Integration1/jemepresente/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Integration1/jemepresente/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Integration1/jemepresente/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapitre 2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapitre 2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapitre 2/js/Q9.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapitre 2/js/Q9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapitre 2/js/Q12.js" beforeDir="false" afterPath="$PROJECT_DIR$/Chapitre 2/js/Q12.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -38,6 +50,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
@@ -67,7 +80,9 @@
       <workItem from="1574126630280" duration="3470000" />
       <workItem from="1574378131979" duration="1318000" />
       <workItem from="1574469850224" duration="13844000" />
-      <workItem from="1574513350880" duration="7962000" />
+      <workItem from="1574513350880" duration="9940000" />
+      <workItem from="1574639668646" duration="5414000" />
+      <workItem from="1574869541669" duration="17280000" />
     </task>
     <servers />
   </component>
