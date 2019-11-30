@@ -25,20 +25,46 @@ var controleur;
 var moteur;
 var usb;
 var matrice;
-var filament=20;
-var batterie=15;
+
+var filament;
+var batterie;
+
+var item1;
+var item2;
+var item3;
+var item4;
 var total;
-var livraison=15;
-var item;
+var livraison;
 
 controleur= (prompt("Entrez A pour RaspBerry pi ou B pour RaspBerryPi Zero"));
 moteur= Number(prompt("Entrez combien de moteurs vous voulez 'min=2 max=24' "));
 usb= (prompt("Vous voulez une camera usb? "));
 matrice= (prompt("Vous voulez un matrice LEDS?"));
+filament=20;
+batterie=20;
+item2=moteur*5;
 
-if (controleur.toUpperCase()==="A"){document.write("Robot avec RaspBerry pi"+55);
-   if (controleur==="B"){document.write("Robot avec RaspBerry pi Zero"+15);
-}}
-else if (moteur){document.write("avec"+moteur+"moteurs");}
 
-total=controleur+moteur+usb+matrice+filament+batterie+livraison;
+controleur=controleur.toUpperCase();
+usb=usb.toUpperCase();
+matrice=matrice.toUpperCase();
+
+if (controleur==="A"){item1=55;}
+else if (controleur==="B"){item1=15;}
+else {document.write("A ou B");}
+
+if (usb==="OUI"){item3=35;}
+else if (usb==="NON"){item3=0;}
+else {document.write("Oui ou non svp");}
+
+if (matrice==="oui"){item4=10;}
+else if (matrice==="non"){item4=0;}
+else {document.write("Oui ou non svp");}
+
+total=item1+item2+item3+item4+filament+batterie;
+livraison=total*0.15;
+
+document.write(controleur+moteur+"moteurs"+usb+matrice+total+livraison);
+
+
+
