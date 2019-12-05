@@ -22,49 +22,46 @@
 // le prix avec la livraison de 15%.
 
 var controleur;
+var controleurTexte;
 var moteur;
+var moteurtext;
 var usb;
+var usbtext;
 var matrice;
+var matricetext;
 
-var filament;
-var batterie;
-
-var item1;
-var item2;
-var item3;
-var item4;
-var total;
-var livraison;
+var prix=0;
+var livraison=0;
 
 controleur= (prompt("Entrez A pour RaspBerry pi ou B pour RaspBerryPi Zero"));
 moteur= Number(prompt("Entrez combien de moteurs vous voulez 'min=2 max=24' "));
 usb= (prompt("Vous voulez une camera usb? "));
 matrice= (prompt("Vous voulez un matrice LEDS?"));
-filament=20;
-batterie=20;
-item2=moteur*5;
-
 
 controleur=controleur.toUpperCase();
 usb=usb.toUpperCase();
 matrice=matrice.toUpperCase();
 
-if (controleur==="A"){item1=55;}
-else if (controleur==="B"){item1=15;}
+if (controleur==="A"){prix+=55;controleurTexte = "Robot avec Raspberry Pi ";
+}
+else if (controleur==="B"){prix+=15;controleurTexte = "Robot avec Raspberry Pi Zero ";}
 else {document.write("A ou B");}
 
-if (usb==="OUI"){item3=35;}
-else if (usb==="NON"){item3=0;}
-else {document.write("Oui ou non svp");}
+if (moteur>=2 && moteur<=24){prix+=(moteur*5);
+moteurtext= (moteur+"moteurs");}
+else{ moteurtext = "Erreur dans les moteurs ";}
 
-if (matrice==="oui"){item4=10;}
-else if (matrice==="non"){item4=0;}
-else {document.write("Oui ou non svp");}
+if (usb==="OUI"){prix+=35; usbtext = " avec caméra USB "}
+else {document.write("Sans camera usb");}
 
-total=item1+item2+item3+item4+filament+batterie;
-livraison=total*0.15;
+if (matrice==="oui"){prix+=10; matricetext="Avec matrice de LEDS"}
+else {document.write("Sans camera matrice de LEDS");}
 
-document.write(controleur+moteur+"moteurs"+usb+matrice+total+livraison);
+prix+=35; //batterie
 
+livraison=prix+1.15;
 
+document.write(controleurTexte + moteurtext + usbtext + matricetext);
+document.write("Le prix est de : " + prix);
+document.write("Le prix avec la livraison est de " + livraison);
 

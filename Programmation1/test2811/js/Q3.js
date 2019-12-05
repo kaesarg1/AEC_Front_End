@@ -1,15 +1,18 @@
-var nom;
-var attaque;
 
-nom= (prompt("Entrez le nom du pokemon:"))
-attaque= (prompt("Entrez le type d'attaque:"));
 
-if (nom === "Dracaufeu" && attaque=== "Queue de fer")
+var nom ="Pikachu";
+var attaque ="Queue de fer";
+
+if (nom==="Dracaufeu")
 {
-    alert("Dracaufeu est l’évolution de Reptincelle");
+    alert("Dracaufeu est l’évolution de Reptincelle")
 }
-else (nom === "Pikachu"  && attaque=== "Queue de fer");
+else (nom="Pikachu")
 {
-    alert("Pikachu évolue en Raichu");
+    console.log("Pikachu évolue en Raichu");
 }
 
+else
+{
+    attaque = "Queue de fer"; //Bonne réponse
+}

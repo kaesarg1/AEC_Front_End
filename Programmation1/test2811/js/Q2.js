@@ -10,14 +10,16 @@
 // Calculer et d’afficher les points de dommages de l’attaque Mad Bull GX à partir des points de vie d’un Pokémon adversaire.
 
 var points;
-
+var dommage;
 
 points= Number(prompt("Entrez les points de vie du Pokémon adversaire :"));
 
 
-if (points<=60){ document.write( "le dommage de l’attaque Mad Bull GX est de 100 points="+(points+150));}
-else if (points>60 && points <=79){document.write("le dommage de l’attaque Mad Bull GX est de 150 points="+(points+150));}
-else if (points>80 && points <=99){document.write("le dommage de l’attaque Mad Bull GX est de 200 points="+(points+200));}
-else if (points>100){document.write("le dommage de l’attaque Mad Bull GX est de 250 points="+(points+250));}
+if (points<60){ dommage=100;}
+else if (points>=60 && points <=79){dommage=150;}
+else if (points>=80 && points <=99){dommage=200;}
+else if (points>100){dommage=250;}
+
+document.write("L'attaque MadBull GX fait"+dommage+"dommages à l'adversaire");
 
 
