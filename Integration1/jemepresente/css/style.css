@@ -29,6 +29,7 @@ h1, h4 {color: #616161;}
 tr { border: 1px solid black; text-align: center; color: antiquewhite; margin: auto;}
 ul { border: 1px solid black; text-align: center; color: antiquewhite; margin: auto;}
 ol { border: 1px solid black; text-align: center; color: antiquewhite; margin: auto;}
+
 a:link {color: cyan;}
 a:visited {color: blue;}
 a:hover {text-decoration: underline;}

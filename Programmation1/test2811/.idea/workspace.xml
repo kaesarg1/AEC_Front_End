@@ -4,10 +4,8 @@
     <list default="true" id="d7e2df1f-6960-4855-ba35-9301a5133f74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../Integration1/jemepresente/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/jemepresente/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Integration1/jemepresente/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/jemepresente/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Q2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Q2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Q3.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Q3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Q6.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Q6.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +65,9 @@
       <workItem from="1574986052215" duration="10288000" />
       <workItem from="1575078847026" duration="6057000" />
       <workItem from="1575413486921" duration="598000" />
-      <workItem from="1575506729220" duration="3893000" />
+      <workItem from="1575506729220" duration="3894000" />
+      <workItem from="1575588135539" duration="1330000" />
+      <workItem from="1575685365242" duration="24000" />
     </task>
     <servers />
   </component>

@@ -12,8 +12,10 @@ for (var i=0;i<5;i++){document.write(nb+"<br>");
 ent= Number(prompt("0 pour finir"));
 
 if (ent===0 && nb>0){document.write("Positif"); {nb0++}}
-else if (ent===0 && nb<0){document.write("Negatif");{nb1++}}
-else (document.write("0"))
+else if (ent===0 && nb<0){document.write("Negatif");{nb1++}}}
+
+
+
 
 
 

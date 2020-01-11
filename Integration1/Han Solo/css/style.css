@@ -1,0 +1,39 @@
+/* Programmé par Cesar Franco */
+
+
+
+@font-face
+{font-family: Starjedi;
+    src: url("http://localhost:63342/Han Solo/font/Starjedi.ttf");
+    font-size: 140px;
+}
+body {
+    background: url("http://localhost:63342/Han Solo /img/etoileMort.jpg");
+    background-color: black;
+    width: 1000px;
+margin: auto;
+
+}
+
+
+p {text-align: justify;
+    color: white;
+font-size: 14px;}
+h1 {color: orange;
+font-family: Starjedi;
+    text-align: center;
+}
+
+h2, h3, h4 {color: white;
+text-align: center;}
+
+h2 {font-size: 72px;}
+h3 {font-size: 60px;}
+h4 {font-size:77px;}
+
+img {
+display: block;
+margin: auto;}
+
+.film {color: orange;}
+.linkb {color: white;}

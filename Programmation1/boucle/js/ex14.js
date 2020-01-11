@@ -1,11 +1,5 @@
-var nom;
-var compteur = 1;
-compteur+= 2;
-
-nom= Number(prompt("Entrez un nombre (0 pour finir):"));
-
-
-
-if (nom===0){document.write(compteur<=0);}
+// Lire une série de nombres fournis par l’usager (l’usager
+// transmet le nombre 0 pour terminer). Afficher la somme des
+// nombres positifs ainsi que la somme des nombres négatifs.
 
 

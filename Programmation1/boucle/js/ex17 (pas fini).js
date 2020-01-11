@@ -1,18 +1,6 @@
-var nbDe0;
-var nbDe1;
-var nb;
-
-for (var i=0;i<10;i++){document.write(nb+"<br>");
-
-    ent= prompt("Entrez un code du sex M ou F");
-
-    if (nb.toUpperCase()==="M"){document.write("Masculin");{nbDe0++;}}
-    else if (nb.toUpperCase()==="F"){document.write("Feminin");{nbDe1++;}}
-    else ("Entrez le bon code");
-
-}
-document.write("Ily a eu:" +nbDe0+"Masculins<br>");
-document.write("Il y a eu:"+ nbDe1+"Feminins <br>");
-
-
+// Lire le code de sexe d’un individu (M ou F) et afficher le sexe de
+// l’individu par le mot correspondant (Masculin ou Féminin). Traiter
+// plusieurs codes de sexe jusqu’à temps que ce code soit autre chose
+// que M ou F. De plus afficher le nombre de M qui ont été entrés ainsi
+// que le nombre de F qui ont été entrés.
 
