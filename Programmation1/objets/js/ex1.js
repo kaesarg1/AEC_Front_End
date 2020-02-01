@@ -1,15 +1,21 @@
-class Pokemon{
 
-    constructor(nom,type,hp,) {
+
+
+class JoueurHockey{
+
+    constructor(nom,nbButs,nbPasses) {
         this.nom = nom;
-        this.type = type;
-        this.hp = hp;
-        this.nomAttaque1 = nomAttqque1;
-        this.nomAttaque2 = nomAttaque2;
-        this.degatsAttaque1 = degatsAttaque1;
-        this.degatsAttaque2 = degatsAttaque2;
+        this.nbButs = nbButs;
+        this.nbPasses = nbPasses;
     }
 
 }
 
-let pikachu = new pokemon ()
+
+let Sydney = new JoueurHockey("Sydney Crosy" , 454, 787);
+let Lemieux = new JoueurHockey("Mario Lemieux" , 690, 1033);
+let Jagr = new JoueurHockey("Jaromir Jagr",766, 1155);
+
+document.write("Nom:"+Sydney.nom+"Buts:"+Sydney.nbButs+"Passes:"+Sydney.nbPasses+"");
+document.write("Nom:"+Lemieux.nom+"Buts:"+Lemieux.nbButs+"Passes:"+Lemieux.nbPasses+"");
+document.write("Nom:"+Jagr.nom+"Buts:"+Jagr.nbButs+"Passes:"+Jagr.nbPasses+"");
