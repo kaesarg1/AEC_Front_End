@@ -1,16 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+
+    <title>Jumbotron</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-    Ouvrir le modal
-</button>
+
+
+<div class="overlay">
+
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-xl-12">
+                <video width="100%" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                    <source src="../ModalJumboCarousel/video/highlights-fc-barcelona-vs-real-madrid-0-0.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <div class="container h-100" >
+        <div class="row h-100 text-center align-items-center">
+            <div class="col-12 text-grey" >
+                <h1 class="display-3" >Le Clasico</h1>
+                <p class="lead mb-0" >Le vrai match de La Liga</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                En savoir plus
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
 <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -24,14 +51,14 @@
 
                 <div class="jumbotron">
                     <h1 class="display-4">Le clasico!</h1>
-                    <img src="img/Rm_mediano.png" class="text-center">
-                    <img src="img/barcelona_mediano.png" class="text-center">
+                    <img src="../ModalJumboCarousel/img/Rm_mediano.png" class="text-center">
+                    <img src="../ModalJumboCarousel/img/barcelona_mediano.png" class="text-center">
                     <p class="lead">Quel sera le résultat de ce premier clasico de 2020 de LaLiga Santander qui est également le match retour ?
                         Qui du Real Madrid ou du FC Barcelona l’emportera au stade Santiago Bernabeu ?.</p>
                     <hr class="my-4">
                     <p>Pour stats, aligments et actualités</p>
                     <p class="lead">
-                        <a href="http://bit.ly/2T7uQrX"  class="btn btn-primary btn-lg" href="#" role="button">En savoir plus </a>
+                        <a href="http://bit.ly/2T7uQrX" target="_blank" class="btn btn-primary btn-lg" href="#" role="button">En savoir plus </a>
                     </p>
                 </div>
 
@@ -43,7 +70,7 @@
         </div>
     </div>
 </div>
-
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
 </body>
