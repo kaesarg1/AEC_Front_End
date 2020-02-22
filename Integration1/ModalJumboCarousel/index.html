@@ -2,9 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-$END$
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Ouvrir le modal
+</button>
+<div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Le clasico!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <div class="jumbotron">
+                    <h1 class="display-4">Le clasico!</h1>
+                    <img src="img/Rm_mediano.png" class="text-center">
+                    <img src="img/barcelona_mediano.png" class="text-center">
+                    <p class="lead">Quel sera le résultat de ce premier clasico de 2020 de LaLiga Santander qui est également le match retour ?
+                        Qui du Real Madrid ou du FC Barcelona l’emportera au stade Santiago Bernabeu ?.</p>
+                    <hr class="my-4">
+                    <p>Pour stats, aligments et actualités</p>
+                    <p class="lead">
+                        <a href="http://bit.ly/2T7uQrX"  class="btn btn-primary btn-lg" href="#" role="button">En savoir plus </a>
+                    </p>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
 </body>
 </html>

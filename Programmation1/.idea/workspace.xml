@@ -2,19 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b161d93c-9546-4eef-8ac1-c58f700ef883" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Integration1/Bootstrap/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Integration1/Bootstrap/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integration1/Bootstrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Integration1/Bootstrap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integration1/Examen1/Examen1/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Integration1/Examen1/Examen1/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integration1/Han Solo/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Integration1/Han Solo/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tableaux/JS/Ex2.js" beforeDir="false" afterPath="$PROJECT_DIR$/tableaux/JS/Ex2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tableaux/JS/ex1.js" beforeDir="false" afterPath="$PROJECT_DIR$/tableaux/JS/ex1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tableaux/JS/ex3.js" beforeDir="false" afterPath="$PROJECT_DIR$/tableaux/JS/ex3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tableaux/JS/ex4.js" beforeDir="false" afterPath="$PROJECT_DIR$/tableaux/JS/ex4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tableaux/JS/ex5.js" beforeDir="false" afterPath="$PROJECT_DIR$/tableaux/JS/ex5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tableaux/JS/ex6.js" beforeDir="false" afterPath="$PROJECT_DIR$/tableaux/JS/ex6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tableaux/JS/ex7.js" beforeDir="false" afterPath="$PROJECT_DIR$/tableaux/JS/ex7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tableaux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tableaux/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/navbar/bootstrap-4.0.0-dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen2/js/Q1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen2/js/Q2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen2/js/Q3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen2/js/Q4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen2/js/Q5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exform/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exform/js/q1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exform/js/q2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exform/js/q3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exform/js/q4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integration1/exbootsrap/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Integration1/exbootsrap/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integration1/exbootsrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Integration1/exbootsrap/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integration1/exfacebook/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Integration1/exfacebook/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boucle/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/boucle/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +91,7 @@
       <workItem from="1578577935300" duration="692000" />
       <workItem from="1579029456422" duration="11000" />
       <workItem from="1579959597273" duration="20000" />
+      <workItem from="1581988706830" duration="81000" />
     </task>
     <servers />
   </component>

@@ -1,40 +1,13 @@
 
-.black {
-    background-color: black;
-}
-.red {
-    background-color: red;
-}
-.purple {
-    background-color: purple;
-}
-
 body {
     background-color: black;
+    font-family: 'Bebas Neue';
+    font-size: 22px;
 }
-
-font {
-    font-family: Roboto;
-
-}
-
-H4 {
-    color: white;
-    font-size: 44px;
-}
-
-.container {
+.header {
     position: relative;
     text-align: center;
     color: white;
-}
-
-
-.caption {
-    position: absolute;
-    top: 45%;
-    left: 0;
-    width: 100%;
 }
 
 hr{
@@ -42,5 +15,9 @@ hr{
     margin-top:30px;
     max-width: 50px;
     border-width: 3px;
-    border-color:orangered;
+    border-color:white;
 }
+.white {
+    background-color: white;
+}
+
