@@ -34,3 +34,8 @@ header .overlay {
     opacity: 0.5;
     z-index: 1;
 }
+
+body {
+    font-family: "Cera PROModern Medium";
+
+}
