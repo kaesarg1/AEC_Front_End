@@ -11,31 +11,27 @@
 <body>
 
 
+<header>
 
-<div class="overlay">
-
-    <div class="container-fluid ">
+    <div class="overlay"></div>
+    <div class="container-fluid">
         <div class="row">
             <div class="col-xl-12">
-                <video width="100%" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                    <source src="../ModalJumboCarousel/video/highlights-fc-barcelona-vs-real-madrid-0-0.mp4" type="video/mp4">
+                <video playsinline ="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                    <source src="../ModalJumboCarousel/video/highlights-fc-barcelona-vs-real-madrid-0-0.mp4" type="video/mp4" >
                 </video>
-            </div>
-        </div>
-    </div>
-
-    <div class="container h-100" >
-        <div class="row h-100 text-center align-items-center">
-            <div class="col-12 text-grey" >
+    <div class="container h-100 pt-5" >
+        <div class="row h-100 text-center align-items-center" >
+            <div class="col-12 text-white" >
                 <h1 class="display-3" >Le Clasico</h1>
                 <p class="lead mb-0" >Le vrai match de La Liga</p>
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                En savoir plus
+                    En savoir plus
                 </button>
             </div>
         </div>
     </div>
-
+</header>
 
 
 <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
@@ -64,13 +60,13 @@
 
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary">Save changes</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="https://www.fcbarcelona.fr/" target="_blank" type="button" class="btn btn-primary">Site Web Barcelona</a>
+                <a href="https://www.realmadrid.com/fr" target="_blank" type="button" class="btn btn-primary">Site Web Real Madrid</a>
             </div>
         </div>
     </div>
 </div>
-</div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
 </body>
