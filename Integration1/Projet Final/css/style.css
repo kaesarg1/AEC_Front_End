@@ -1,0 +1,204 @@
+@font-face {
+    font-family: Maximilian;
+    src: url("../font/Maximilian.ttf");
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+html, body {margin:0; height: 100%;}
+
+.navbar {
+    background-color : black;
+    opacity: 0.6;
+}
+
+header {
+    position: relative;
+    background-color : black;
+    height: 100%;
+    min-height : 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height : 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform : translateX(-50%) translateY(-50%);
+    -moz-transform : translateX(-50%) translateY(-50%);
+    -webkit-transform : translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color : black;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, bg7 {
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.bg1 {
+    min-height: 100%;
+}
+
+.bg2 {
+    background-image: url("../img/Artboard 1.png");
+    min-height: 100%;
+}
+.bg3{
+    background-image: url("https://f4.bcbits.com/img/a4077130035_10.jpg");
+    min-height: 100%;
+
+}
+.bg4{
+
+    min-height: 100%;
+
+}
+.bg5{
+
+    min-height: 100%;
+
+}
+
+.bg6{
+
+    min-height: 100%;
+
+}
+
+.bg7{
+
+    min-height: 100%;
+
+}
+
+button {
+    border: none;
+}
+
+h1, h5 {
+    font-family: Maximilian;
+    font-weight: bold;
+    font-size:10vw;
+}
+
+
+.navbar, p, button, h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+}
+
+.hovereffect {
+    width:100%;
+    height:100%;
+    float:left;
+    overflow:hidden;
+    position:relative;
+    text-align:center;
+    cursor:default;
+}
+
+.hovereffect .overlay {
+    width:100%;
+    height:100%;
+    position:absolute;
+    overflow:hidden;
+    top:0;
+    left:0;
+    opacity:0;
+    background-color:rgba(0,0,0,0.5);
+    -webkit-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out
+}
+
+.hovereffect img {
+    display:block;
+    position:relative;
+    -webkit-transition:all .4s linear;
+    transition:all .4s linear;
+}
+
+
+.hovereffect a.info {
+    text-decoration:none;
+    display:inline-block;
+    text-transform:uppercase;
+    color:#fff;
+    border:1px solid #fff;
+    background-color:transparent;
+    opacity:0;
+    filter:alpha(opacity=0);
+    -webkit-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out;
+    margin:50px 0 0;
+    padding:7px 14px;
+}
+
+.hovereffect a.info:hover {
+    box-shadow:0 0 5px #fff;
+}
+
+.hovereffect:hover img {
+    -ms-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+
+.hovereffect:hover p,.hovereffect:hover a.info {
+    opacity:1;
+    filter:alpha(opacity=100);
+    -ms-transform:translatey(0);
+    -webkit-transform:translatey(0);
+    transform:translatey(0);
+}
+
+.hovereffect:hover a.info {
+    -webkit-transition-delay:.2s;
+    transition-delay:.2s;
+}
+
+.vids header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 50%;
+    min-height: 50%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}

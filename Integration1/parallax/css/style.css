@@ -1,0 +1,29 @@
+
+html, body {margin:0; height: 100%;}
+
+.bg1, .bg2 {
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bg1{
+    background-image: url("../img/am1.jpg");
+    min-height: 100%;
+
+}
+.bg2{
+    background-image: url("../img/am2.jpg");
+    min-height: 100%;
+
+}
+
+
+h1 {
+    font-weight: bold;
+    font-size: 10rem;
+}
