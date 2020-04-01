@@ -2,22 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b161d93c-9546-4eef-8ac1-c58f700ef883" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Integration1/navbar/bootstrap-4.0.0-dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen2/js/Q1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen2/js/Q2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen2/js/Q3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen2/js/Q4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen2/js/Q5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exform/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exform/js/q1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exform/js/q2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exform/js/q3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exform/js/q4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integration1/exbootsrap/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Integration1/exbootsrap/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integration1/exbootsrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Integration1/exbootsrap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integration1/exfacebook/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Integration1/exfacebook/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boucle/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/boucle/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/Projet Final/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/Projet Final/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/Projet Final/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/Projet Final/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/Projet Final/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/Projet Final/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/Projet Final/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/Projet Final/js/Instafeed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/Projet Final/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/Projet Final/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/Projet Final/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/Projet Final/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/Projet Final/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/Projet Final/js/js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/comicon2019/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/comicon2019/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/comicon2019/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/comicon2019/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/comicon2019/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/comicon2019/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/comicon2019/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/comicon2019/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/comicon2019/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/comicon2019/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/comicon2019/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/form/FormulaireEnvoye.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/form/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/form/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/form/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/form/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/form/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/form/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/form/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/form/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/form/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/form/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/form/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/form/recherche.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/parallax/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/parallax/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/parallax/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/parallax/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/parallax/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/parallax/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/parallax/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/parallax/js/flash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Integration1/parallax/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PFinal/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PFinal/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PFinal/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PFinal/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PFinal/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PFinal/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PFinal/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PFinal/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PFinal/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PFinal/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PFinal/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PFinal/js/helloJquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PFinal/js/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integration1/ModalJumboCarousel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Integration1/ModalJumboCarousel/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +138,7 @@
       <workItem from="1579029456422" duration="11000" />
       <workItem from="1579959597273" duration="20000" />
       <workItem from="1581988706830" duration="81000" />
+      <workItem from="1585545115262" duration="115000" />
     </task>
     <servers />
   </component>
