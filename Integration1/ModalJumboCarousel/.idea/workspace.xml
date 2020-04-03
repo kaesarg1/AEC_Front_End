@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17f91d8c-44b0-4ebb-a535-267d91375642" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Projet Final/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projet Final/discography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projet Final/gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projet Final/lineup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Projet Final/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet Final/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Final/epk.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet Final/epk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projet Final/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet Final/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Projet Final/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet Final/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PFinal/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PFinal/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PFinal/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PFinal/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PFinal/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PFinal/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PFinal/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PFinal/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PFinal/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PFinal/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PFinal/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PFinal/js/helloJquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PFinal/js/jquery-3.4.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programmation1/jquery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation1/jquery/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +79,9 @@
       <workItem from="1584800545004" duration="1557000" />
       <workItem from="1585091908073" duration="1150000" />
       <workItem from="1585606510884" duration="1332000" />
-      <workItem from="1585704236529" duration="3807000" />
+      <workItem from="1585704236529" duration="3935000" />
+      <workItem from="1585748096799" duration="1195000" />
+      <workItem from="1585843146766" duration="1290000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1582384923524</created>

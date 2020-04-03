@@ -4,128 +4,112 @@
 }
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: black;
+    font-size: 1rem;
+}
+
+.navbar {
+    background-color: black;
 }
 
 html, body {
     margin:0;
-    height: 100%;}
-
-
-
-.navbar {
-    background-color : black;
-    opacity: 0.6;
+    height: 100%;
 }
+
+header {
+    margin-top: 3rem;
+
+}
+
+
+footer {
+    margin-top: 5rem;
+
+}
+
+header video {
+    margin-top: 8rem;
+}
+
 header {
     position: relative;
     background-color : black;
-    height: 100%;
-    min-height : 25rem;
+    height: 50%;
+    min-height: 20rem;
     width: 100%;
     overflow: hidden;
 }
 header video {
     position: absolute;
-    top: 20rem;
+    top: 50%;
     left: 50%;
     min-width: 100%;
-    min-height : 100%;
-    width: auto;
+    min-height: 100%;
+    width: 100%;
     height: auto;
     z-index: 0;
-    -ms-transform : translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
     -moz-transform : translateX(-50%) translateY(-50%);
     -webkit-transform : translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
+
 header .container {
     position: relative;
     z-index: 2;
 }
-header .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 150%;
-    width: 100%;
-    background-color : black;
-    opacity: 0.5;
-    z-index: 1;
-}
-.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, bg7 {
 
+
+h1 {
+    font-family: Maximilian, serif;
+    font-weight: bold;
+    font-size:9vw;
+}
+
+p, button, h2, .navbar-nav,a, label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5vw;
+}
+
+.parallax {
+    min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 }
-.bg1 {
+
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6 {
     min-height: 100%;
+}
+
+.bg1, .bg3 {
+    background-image: url("../img/Artboard 1.png");
+
 }
 
 .bg2 {
-    background-image: url("../img/Artboard 1.png");
-    min-height: 100%;
-}
-.bg3{
     background-image: url("https://f4.bcbits.com/img/a4077130035_10.jpg");
-    min-height: 100%;
-
-}
-.bg4{
-
-    min-height: 100%;
-
-}
-.bg5{
-
-    min-height: 100%;
-
 }
 
-.bg6{
-
-    min-height: 100%;
-
+.bg4 {
+    background-image: url("../img/Optimized-dom.png");
 }
-
-.bg7{
-
-    min-height: 100%;
-
+.bg5 {
+    background-image: url("../img/band4.png");
 }
-
-button {
-    border: none;
+.bg6 {
+    background-image: url("../img/Artboard 2.png");
 }
-
-h1, h5 {
-    font-family: Maximilian, serif;
-    font-weight: bold;
-    font-size:10vw;
-}
-
-
-.navbar, p, button, h2 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 1rem;
-}
-
-h2 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.5rem;
-}
-
 .hovereffect {
     width:100%;
-    height:100%;
     float:left;
     overflow:hidden;
     position:relative;
     text-align:center;
     cursor:default;
+    display: block;
 }
 
 .hovereffect .overlay {
@@ -192,16 +176,11 @@ h2 {
     transition-delay:.2s;
 }
 
-.video-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+.form-group {
+    display: inline-block;
+    width: 140px;
 }
-.video-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
+
+
+
+
