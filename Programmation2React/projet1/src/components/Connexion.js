@@ -4,6 +4,8 @@ import Button from "react-bootstrap/Button";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import {Container, Row, Col} from "react-bootstrap";
 import logo from '../img/Spotify.png';
+// import { BrowserRouter as  Redirect } from "react-router-dom";
+// import { Accueil } from "./Accueil";
 
 export class Connexion extends React.Component {
   constructor(props) {  
@@ -15,9 +17,15 @@ export class Connexion extends React.Component {
 
     const email = document.getElementById('email').value;
     const pass = document.getElementById('password').value;
-    if (email.toLowerCase() === "shany.carle@gmail.com" && pass === "patate")
+    if (email.toLowerCase() === "shany.carle@gmail.com" && pass === "patate"){
       connecter = true;
-    this.props.onClick(connecter);  
+      // this.props.onClick(connecter);  
+      console.log('redirecting');
+     this.props.history.push('home');
+
+    }
+
+    console.log(connecter);
   } 
 
   render() {

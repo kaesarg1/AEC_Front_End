@@ -1,9 +1,9 @@
 import React from 'react';
-import {Connexion} from './Connexion';
+import {ParolesBrume} from './ParolesBrume';
 
 function App() {
   return (
-    <Connexion></Connexion>
+    <ParolesBrume></ParolesBrume>
   );
 }
 

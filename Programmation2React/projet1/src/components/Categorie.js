@@ -1,69 +1,133 @@
 import React from "react";
-import Container from "react-bootstrap/Container"
+import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import './Categorie.css';
-import { Artist } from "./Artist";
+import Col from "react-bootstrap/Col";
+import InputGroup from "react-bootstrap/InputGroup";
+import Form from "react-bootstrap/form";
+import FormControl from "react-bootstrap/FormControl";
+import Button from "react-bootstrap/Button";
+import { Client } from "./Client";
 
-const tabAlbums = [
+
+const liste = [
   {
+    artist: "Brume d'automne",
+    album: "Fiers et Victorieux",
     src: require("../img/brumes.jpg"),
-    alt: "Brume d'automne",
-    title: "Brume d'automne",
-  
   },
   {
+    artist: "Délétère",
+    album: "Les Heures de la Peste",
     src: require("../img/deletere.jpg"),
-    alt: "Délétère",
-    title: "Délétère",
   },
   {
+    artist: "Forteresse",
+    album: "Métal Noir Québecois",
     src: require("../img/forteresse.jpg"),
-    alt: "Forteresse",
-    title: "Forteresse",
   },
   {
+    artist: "Gris",
+    album: "Neurasthénie",
     src: require("../img/gris.jpg"),
-    alt: "Gris",
-    title: "Gris",
   },
   {
+    artist: "Monarque",
+    album: "Lys Noir",
     src: require("../img/monarque.jpg"),
-    alt: "Monarque",
-    title: "Monarque",
   },
   {
+    artist: "Sombres Forêts",
+    album: "Quintessence",
     src: require("../img/sombre.jpg"),
-    alt: "Sombres Forêts",
-    title: "Sombres Forêts",
   },
+  
 ];
 
-export class Categorie extends React.Component {
 
+export class Categorie extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {rechercher:"",
+                  listeClients : liste};
+    this.Rechercher = this.Rechercher.bind(this);
+    this.Effacer = this.Effacer.bind(this);
+  }
+  Rechercher(){
+    let nom = document.getElementById("inputRechercher").value;
+    this.setState({rechercher:nom});
+  }
+  Effacer(){
+    document.getElementById("inputRechercher").value = "";
+    this.setState({rechercher:""});
+  }
   render() {
     return (
-      <>
-        <Container className="bg-dark text white">
-          <Row className="bg-dark text-white">
-            <h1>{this.props.nom}</h1>
-          </Row>
-          <Row>{this.AfficherCategorie()}</Row>
-        </Container>
-      </>
+    
+      <Container fluid>
+        <Row>
+        <Col className="col-4">
+        <Form>
+        <InputGroup className="mb-3">
+          <FormControl
+            id="inputRechercher"
+            placeholder="Rechercher"
+            aria-label="Rechercher"
+            aria-describedby="Rechercher"
+            onChange={this.Rechercher}
+          />
+          <InputGroup.Append>
+            <Button variant="outline-secondary" onClick={this.Rechercher}>Rechercher</Button>
+          </InputGroup.Append>
+          <InputGroup.Append>
+            <Button variant="outline-secondary" onClick={this.Effacer}>Annuler</Button>
+          </InputGroup.Append>
+        </InputGroup>
+  
+        </Form>
+        </Col>
+        <Col className="col-4"></Col>
+
+        <Col className="col-4">
+    
+      <Button variant="outline-secondary" onClick={() => this.handleDeconnexion()}>
+        Déconnexion
+      </Button>
+
+        </Col>
+        </Row>
+        <Row>
+            <Col>
+                <h1 className="text-white">Albums</h1>
+            </Col>
+        </Row>
+            <div class="p-2 mb-2 bg-white"></div>
+        <Row className="text-dark">{this.AfficherAlbums()}</Row>
+        
+      </Container>
     );
-  };
+  }
 
-  AfficherCategorie() {
-    if (this.props.nom === "Albums") {
-      return tabAlbums.map((element, i) => (
-        <Artist
-          key={"Albums" + i}
+  AfficherAlbums() {
+    if(this.state.rechercher === ""){
+       return this.state.listeClients.map((element, i) => (
+        <Client
+          key={"perso" + i}
           src={element.src}
-          alt={element.alt}
-          title={element.title}
-          //onHover={this.handleHover}
-        ></Artist>
-
+          artist={element.artist}
+          album={element.album}
+        ></Client>
       ));
-  }}};
-
+    }
+    else{
+      const searchResult = this.state.listeClients.filter(l => l.nom.toLowerCase().includes(this.state.rechercher.toLowerCase()));
+      return searchResult.map((element, i) => (
+        <Client
+          key={"perso" + i}
+          src={element.src}
+          artist={element.artist}
+          album={element.album}
+        ></Client>
+      ));
+    }
+  }
+}

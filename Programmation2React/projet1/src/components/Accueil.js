@@ -4,11 +4,12 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row"; 
 import Col from "react-bootstrap/Col"; 
 import './Accueil.css';
-import {Albums} from './Artist'
+import {Client} from './Client'
 import {Connexion} from './Connexion'
 import {Deconnexion} from './Deconnexion'
+import { Catalogue } from "./Catalogue";
 
-export class Accueil extends React.Component {
+export class Catalogue extends React.Component {
   constructor(props) {
     super(props);
     this.state = {connecter: false};
@@ -17,7 +18,7 @@ export class Accueil extends React.Component {
   }
 
   verifierConnexion(Connexion){
-    this.setState({ connecter: Connexion });
+    this.setState({connecter:Connexion});
   }
 
   gererConnexion(){
@@ -33,7 +34,7 @@ export class Accueil extends React.Component {
               <Deconnexion onClick={this.verifierConnexion} />
             </Col>
           </Row>
-          <Albums />
+          <Catalogue />
         </Container>  
       )
     }
