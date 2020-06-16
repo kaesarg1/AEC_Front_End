@@ -13,19 +13,16 @@ export class Connexion extends React.Component {
     this.handleConnexion = this.handleConnexion.bind(this);  
   } 
   handleConnexion(){
-    let connecter = false;
 
     const email = document.getElementById('email').value;
     const pass = document.getElementById('password').value;
     if (email.toLowerCase() === "shany.carle@gmail.com" && pass === "patate"){
-      connecter = true;
-      // this.props.onClick(connecter);  
-      console.log('redirecting');
      this.props.history.push('home');
 
+    }else {
+      alert('bad password');
     }
 
-    console.log(connecter);
   } 
 
   render() {

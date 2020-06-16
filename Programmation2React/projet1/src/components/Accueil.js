@@ -4,45 +4,47 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row"; 
 import Col from "react-bootstrap/Col"; 
 import './Accueil.css';
-import {Client} from './Client'
-import {Connexion} from './Connexion'
-import {Deconnexion} from './Deconnexion'
-import { Catalogue } from "./Catalogue";
+import { Artist, Recherche} from './Artist'
+// import {Connexion} from './Connexion'
+import {Deconnexion} from './Deconnexion';
+import {Catalogue} from './Catalogue';
+import { Link } from "react-router-dom";
+  // import { Form } from "react-bootstrap";
 
-export class Catalogue extends React.Component {
+
+export class Accueil extends React.Component {
+  
   constructor(props) {
+    
     super(props);
     this.state = {connecter: false};
     this.gererConnexion = this.gererConnexion.bind(this);
-    this.verifierConnexion = this.verifierConnexion.bind(this);
   }
 
-  verifierConnexion(Connexion){
-    this.setState({connecter:Connexion});
-  }
+
 
   gererConnexion(){
-    if(this.state.connecter){
       return (
         
         <Container fluid>
           <Row>
             <Col>
-              <img src={logo} alt="Spotify" width="100px"/>
+              <Recherche></Recherche>
             </Col>
             <Col>
-              <Deconnexion onClick={this.verifierConnexion} />
+              <Link to="/"> <Deconnexion /></Link>
+              
             </Col>
           </Row>
-          <Catalogue />
+          <Row>
+            <Col>
+            <Catalogue></Catalogue>
+            </Col>
+          </Row>
+          <Artist />
         </Container>  
       )
-    }
-    else{
-      return(
-        <Connexion onClick={this.verifierConnexion} />
-      )
-    }
+  
   }
   render() {
     return (
