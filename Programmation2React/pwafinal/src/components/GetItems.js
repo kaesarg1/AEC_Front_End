@@ -57,10 +57,9 @@ class GetItems extends React.Component {
                             <Card.Text>
                             {item.details}
                             </Card.Text>
-                      
 
-                          <Button className="buttondet" onClick={() => this.handleClick(item._id)} variant="primary" message="1">Détails</Button>
-                         
+                            <Button className="buttondet" onClick={() => this.handleClick(item._id)} variant="primary" message="1">Détails</Button>
+
                         </Card.Body>
                     </Card>
 
