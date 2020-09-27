@@ -46,9 +46,9 @@ class GetItems extends React.Component {
         return <div>Chargement…</div>;
       } else {
         return (
-          <Container className="containermax">
+          <Container className="containermax mx-auto">
             <Row className="justify-content-md-center" style={{display: 'flex', flexDirection: 'row'}} >
-                <Col className="col-md-6 col-md-offset-3">
+                <Col className="col-md-6 col-md-offset-3 pb-sm-5">
                   {items.map(item => (
                     <Card className="cards" bg="light" key={item.nom} style={{ width: '18rem' }}>
                       <Card.Img className="pics" variant="top" src={item.lienphoto} />

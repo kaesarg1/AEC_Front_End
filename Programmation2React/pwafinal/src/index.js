@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Router basename="AEC_Front_End/Programmation2React/pwafinal/build"></Router>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
