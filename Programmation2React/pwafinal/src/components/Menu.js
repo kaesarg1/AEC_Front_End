@@ -1,7 +1,7 @@
 import React from "react";
 import {  Container} from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import logo from '../img/icons/debarras_logo_96x96.ico';
+import logo from '../images/icons/debarras_logo_96x96.ico';
 import '../styles/styles.sass';
 
 export class Menu extends React.Component {
