@@ -24,7 +24,7 @@ export class App extends React.Component{
               <Route path="/EditItems" component={FormEditerItem} />
             </Anime>
           </Switch>
-         
+         <GetItems></GetItems>
         </Row>
         <Row>
           <Footer></Footer>
