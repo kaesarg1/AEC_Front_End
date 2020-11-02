@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <!--scripts-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&display=swap" rel="stylesheet">
@@ -22,43 +22,46 @@
 <body class="bg-light">
 
 <section id="header"> <!--header-->
-    <div class="container-fluid header">
+    <div class="container">
         <div class="row">
-            <div class="navbar ml-5 pl-5">
-                <nav class="navbar navbar-expand-lg navbar-light .bg-gradient-light ">
+            <div class="col-sm ml-5 pl-5 ">
                     <a class="hvr-grow  navbar-brand" href="index.html">Cesar Franco</a>
-                </nav>
             </div>
-            <div class="offset-6"></div>
-            <div class="col-3  mt-2 align-self-center">
-                <a href="mailto:franco.cesar@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></i></a>
-                <a href="https://github.com/kaesarg1" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-                <a href="https://www.linkedin.com/in/cesarfrancog/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></i></a>
+            <div class="offset-md-6 col-sm"></div>
 
+            <div class="col-sm pt-3">
+                <a href="https://github.com/kaesarg1" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            </div>
+            <div class="col-sm pt-3">
+                <a href="https://www.linkedin.com/in/cesarfrancog/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></i></a>
+            </div>
+            <div class="col-sm  pt-3">
+                <a href="mailto:franco.cesar@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></i></a>
             </div>
         </div>
     </div>
 </section> <!--end header-->
 
 <section id="main"><!--main-->
-    <div class="container banner bg-light">
+    <div class="container banner bg-light col-sm">
             <div data-aos="fade-up"  data-aos-delay="300" class="jumbotron text-white jumbotron-image" style="background-image: url(./img/picpf.jpg);">
-                <h2 class="col-sm-12 jumbotext mb-4 text-center text-dark ">
+                <h2 class="jumbotext mb-4 text-center text-dark ">
                     César Franco :: Développeur Web
                 </h2>
                 <br>
-                <p class="col-sm-12 mb-4 text-center text-dark ">
+                <p class="offset-3 col-6 mb-4 text-center text-dark ">
                     Développeur débutant à la recherche d’expérience et de grandir au sein d’une compagnie
-                </p>
-                <p class="col-sm-12 mb-4 text-center text-dark">
                     où je sois capable de multiplier mes connaissances et d’appliquer toutes mes capacités.
+
+                </p>
+                <p class=" mb-4 text-center text-dark">
                 </p>
         </div>
     </div>
 
-    <div class="container-fluid main d-flex justify-content-center">
-        <div class="row">
-            <div  class="hvr-grow card text-center align-items-center  m-2 pt-2 bg-light headline" style="width: 17rem" >
+    <div class="container">
+        <div class="row justify-content-center">
+            <div  class="col-lg-3 col-sm-12 hvr-grow card text-center align-items-center  m-2 pt-2 bg-light headline">
                 <i class="card-img-top fas fa-file-code fa-10x "></i>
                 <div class="card-body">
                     <h5 class="card-title">Formation</h5>
@@ -70,7 +73,7 @@
                     <p class="card-text">Université Jorge Tadeo Lozano, Colombie</p>
                 </div>
             </div>
-            <div  class="hvr-grow card text-center align-items-center  m-2 pt-2 bg-light headline" style="width: 17rem">
+            <div  class="col-lg-3 col-sm-12 hvr-grow card text-center align-items-center  m-2 pt-2 bg-light headline">
                 <i class="card-img-top fas fa-file-code fa-10x "></i>
                 <div class="card-body">
                     <h5 class="card-title">Compétences</h5>
@@ -84,7 +87,7 @@
                     <p class="card-text">Visual Studio, PHPstorm</p>
                 </div>
             </div>
-            <div  class="hvr-grow card text-center align-items-center  m-2 pt-2 bg-light headline" style="width: 17rem">
+            <div  class="col-lg-3 col-sm-12  hvr-grow card text-center align-items-center  m-2 pt-2 bg-light headline">
                 <i class="card-img-top fas fa-file-code fa-10x "></i>
                 <div class="card-body">
                     <h5 class="card-title">Langages</h5>
@@ -101,7 +104,7 @@
 </section><!-- end main-->
 
 <section id="footer"><!--footer-->
-<div class="container-fluid align-items-center text-center footer mt-5">
+<div class="col-sm-12 container-fluid align-items-center text-center footer mt-5">
     <a href="https://github.com/kaesarg1" target="_blank"><i class="fab fa-github fa-2x"></i></a>
     <a href="https://www.linkedin.com/in/cesarfrancog/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></i></a>
     <a href="mailto:franco.cesar@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></i></a>
@@ -109,6 +112,7 @@
 </section><!-- footer-->
 
 <!--scripts-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     AOS.init();
