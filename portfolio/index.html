@@ -1,15 +1,16 @@
 <!--Par Cesar Franco 2020-->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
     <meta charset="UTF-8">
     <title>Cesar Franco ::: Portfolio</title>
-    <link rel="icon" type="favicon/png" href="favicon.png"/>
+    <link rel="icon" type="favicon/png" href="./favicon.png"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <!--scripts-->
-
+    <script src="js/js.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&display=swap" rel="stylesheet">
@@ -21,48 +22,40 @@
 </head>
 <body class="bg-light">
 
-<section id="header"> <!--header-->
-    <div class="container">
+<section id="header">
+    <div class="container-fluid  text-center ml-5"><!--Navbar-->
         <div class="row">
-            <div class="col-sm ml-5 pl-5 ">
-                    <a class="hvr-grow  navbar-brand" href="index.html">Cesar Franco</a>
+            <div class="col-lg-1 col-sm-12">
+                <a class=" hvr-grow navbar-brand align-self-center" href="#">César Franco</a>
             </div>
-            <div class="offset-md-6 col-sm"></div>
-
-            <div class="col-sm pt-3">
-                <a href="https://github.com/kaesarg1" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-            </div>
-            <div class="col-sm pt-3">
-                <a href="https://www.linkedin.com/in/cesarfrancog/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></i></a>
-            </div>
-            <div class="col-sm  pt-3">
-                <a href="mailto:franco.cesar@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></i></a>
+            <div class="col-lg-1 col-sm-12 ml-5 align-self-center mt-2">
+                <a class="hvr-grow ml-5" href="#contact">Contact</a>
             </div>
         </div>
     </div>
+    <div class="jumbotron jumbotron-fluid" data-aos="fade-up"  data-aos-delay="300"> <!--jumbotron-->
+
+        <video autoplay muted loop poster="https://dummyimage.com/900x400/000/fff">
+            <source src="./video/banner_portfolio.mp4"  type="video/mp4">
+        </video>
+
+        <div class="container text-white">
+
+            <h1 class="display-4 text-white text-center">César Franco :: Développeur Web</h1>
+            <p class="lead text-center"> Développeur débutant à la recherche d’expérience et de grandir au sein d’une compagnie
+                où je sois capable de multiplier mes connaissances et d’appliquer toutes mes capacités.</p>
+            <hr class="my-4">
+
+            <a href="./docs/CESAR_FRANCO_developpeur.docx" download><p class="text-white text-center">Télécharger cv</p></a>
+        </div>
+    </div><!-- end jumbotron -->
 </section> <!--end header-->
 
 <section id="main"><!--main-->
-    <div class="container banner bg-light col-sm">
-            <div data-aos="fade-up"  data-aos-delay="300" class="jumbotron text-white jumbotron-image" style="background-image: url(./img/picpf.jpg);">
-                <h2 class="jumbotext mb-4 text-center text-dark ">
-                    César Franco :: Développeur Web
-                </h2>
-                <br>
-                <p class="offset-3 col-6 mb-4 text-center text-dark ">
-                    Développeur débutant à la recherche d’expérience et de grandir au sein d’une compagnie
-                    où je sois capable de multiplier mes connaissances et d’appliquer toutes mes capacités.
-
-                </p>
-                <p class=" mb-4 text-center text-dark">
-                </p>
-        </div>
-    </div>
-
     <div class="container">
         <div class="row justify-content-center">
             <div  class="col-lg-3 col-sm-12 hvr-grow card text-center align-items-center  m-2 pt-2 bg-light headline">
-                <i class="card-img-top fas fa-file-code fa-10x "></i>
+                <i class="card-img-top fas fa-university fa-8x"></i>
                 <div class="card-body">
                     <h5 class="card-title">Formation</h5>
                     <h6 class="card-text">AEC Développement Web Front-end</h6>
@@ -74,7 +67,7 @@
                 </div>
             </div>
             <div  class="col-lg-3 col-sm-12 hvr-grow card text-center align-items-center  m-2 pt-2 bg-light headline">
-                <i class="card-img-top fas fa-file-code fa-10x "></i>
+                <i class="card-img-top fas fa-laptop-code fa-8x pt-2 "></i>
                 <div class="card-body">
                     <h5 class="card-title">Compétences</h5>
                     <h6 class="card-text">Langages</h6>
@@ -88,9 +81,9 @@
                 </div>
             </div>
             <div  class="col-lg-3 col-sm-12  hvr-grow card text-center align-items-center  m-2 pt-2 bg-light headline">
-                <i class="card-img-top fas fa-file-code fa-10x "></i>
+                <i class="card-img-top fas fa-photo-video fa-8x pt-2"></i>
                 <div class="card-body">
-                    <h5 class="card-title">Langages</h5>
+                    <h5 class="card-title">Background</h5>
                     <h6 class="card-text">Images en mouvement et fixes</h6>
                     <p class="card-text">Adobe CC (Première, Photoshop, Illustrator, Lightroom, InDesign, After Effects)</p>
                     <h6 class="card-text">Audio</h6>
@@ -104,15 +97,31 @@
 </section><!-- end main-->
 
 <section id="footer"><!--footer-->
-<div class="col-sm-12 container-fluid align-items-center text-center footer mt-5">
-    <a href="https://github.com/kaesarg1" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-    <a href="https://www.linkedin.com/in/cesarfrancog/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></i></a>
-    <a href="mailto:franco.cesar@gmail.com" target="_blank"><i class="fas fa-envelope fa-2x"></i></i></a>
-</div>
+    <div id="contact" class="container">
+        <row class="justify-content-center">
+            <div  class="col p-2  hvr-grow card text-center bg-light headline">
+<!--                <i class="card-img-top fas fa-photo-video fa-8x pt-2"></i>-->
+                <div class="card-body">
+                    <h5 class="card-title">Contact</h5>
+                    <hr>
+                    <a href="https://github.com/kaesarg1" target="_blank"><i class="fab fa-github fa-4x align-self-center"></i></a>
+                    <a href="https://www.linkedin.com/in/cesarfrancog/" target="_blank"><i class="fab fa-linkedin fa-4x align-self-center"></i></i></a>
+                    <a href="mailto:franco.cesar@gmail.com" target="_blank"><i class="fas fa-envelope fa-4x align-self-center mt-2"></i></i></a>
+                    <p class="mt-2">Téléphone: 5142319402</p>
+                    <p>franco.cesar@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-sm-12 container-fluid align-items-center text-center footer mt-5">
+                <p>© COPYRIGHT 2020 - Tous Droits Réservés</p>
+            </div>
+        </row>
+    </div>
 </section><!-- footer-->
 
 <!--scripts-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     AOS.init();
