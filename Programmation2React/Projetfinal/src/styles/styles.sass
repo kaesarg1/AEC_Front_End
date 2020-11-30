@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import './mediaqueries.sass'
+
+
+
+$bgColor: #f9cb0d
+$cardBg: #e6e6e6
+$bcolor: #1E90FF
+
+body 
+    background-color: $bgColor
+    
+.debarras 
+  font-family: 'Archivo Black', sans-serif
+  font-size: 2.5rem
+
+.pics 
+
+  width: 90%
+  height: 60%
+
+.NavBar 
+  cursor: pointer
+
+.cards
+  display: inline-block
+  width: 100%
+  max-width: 350px
+  margin: 20px
+  cursor: pointer
+  transition: all 0.3s ease
+  text-align: center
+  background: $cardBg
+  box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2)
+  border-radius: 15px 
+
+  &:hover
+    transform: translateY(-5px)
+    box-shadow: 0 20px 20px -15px rgba(0, 0, 0, 0.3)
+
+.pics
+  width: 288px
+  height: 200px
+  border-radius: 5px 
+
+.form
+  padding-top: 5%
+
+.buttondet
+  background-color: $bcolor
+  color: white
+
+.containermax
+  height: 400px
+  width: 100%
+
+
+.main-footer 
+  position: sticky
+  margin-top: 0px
+  padding-top: 150px
+  text-align: center
+

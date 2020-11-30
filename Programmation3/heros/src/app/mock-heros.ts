@@ -1,0 +1,1 @@
+export const HEROS : string[] = ['Héro 1', 'Héro 2', 'Héro 3'];
