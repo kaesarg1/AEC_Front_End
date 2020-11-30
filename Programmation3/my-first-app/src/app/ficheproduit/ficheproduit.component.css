@@ -1,0 +1,19 @@
+:host {
+    background-color: #3479c9;
+    display: block;
+    border: 1px solid black;
+    margin: 25px 50px;
+    padding: 20px;
+}
+
+:host .flex-container {
+  display: flex;
+}
+
+:host .details {
+  display: block;
+  background-color: white;
+  border: 1px solid black;
+  margin: 25px 50px;
+  padding-left: 10px;
+}

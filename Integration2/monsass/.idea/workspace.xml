@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94ed1c29-0229-447b-a6ac-882d7fbadf7a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../anime/.idea/anime.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/monBootstrap.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/style.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/style/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Integration1/ModalJumboCarousel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/ModalJumboCarousel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Integration1/Projet Final/confirmation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Projet Final/confirmation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Integration1/Projet Final/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Projet Final/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Integration1/Projet Final/lineup.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Projet Final/lineup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Integration1/canvas/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/canvas/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Integration1/forms/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/forms/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../I2examen1/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../I2examen1/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../I2examen1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../I2examen1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../I2examen1/js/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/../I2examen1/js/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anime/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../anime/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anime/js/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/../anime/js/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anime/js/vanta.trunk.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../anime/js/vanta.trunk.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/src/components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/src/components/App/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/src/components/App/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/src/components/Catalogue/Catalogue.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/src/components/Catalogue/Catalogue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/src/components/Categorie/Categorie.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/src/components/Categorie/Categorie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/src/components/TvShow/TvShow.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/src/components/TvShow/TvShow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2React/bottin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2React/bottin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2React/bottin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2React/bottin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2React/bottin/src/Components/Connexion.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2React/bottin/src/Components/Connexion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2React/projet1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2React/projet1/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2React/projet1/src/components/albums.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2React/projet1/src/components/albums.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1evv02XN9UGVw1NxOsdQjZGVrFz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Exercice1Sass" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94ed1c29-0229-447b-a6ac-882d7fbadf7a" name="Default Changelist" comment="" />
+      <created>1595214654617</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595214654617</updated>
+      <workItem from="1595214655759" duration="2214000" />
+      <workItem from="1597274551088" duration="576000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

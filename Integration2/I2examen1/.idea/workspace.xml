@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="951df8f0-4487-41fd-b99f-71653008861a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../anime/bootstrap-4.0.0-dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/bootstrap-4.0.0-dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/bootstrap-4.0.0-dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/bootstrap-4.0.0-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/bootstrap-4.0.0-dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/bootstrap-4.0.0-dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/bootstrap-4.0.0-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/bootstrap-4.0.0-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/bootstrap-4.0.0-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/bootstrap-4.0.0-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/bootstrap-4.0.0-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/bootstrap-4.0.0-dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/bootstrap-4.0.0-dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/bootstrap-4.0.0-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/bootstrap-4.0.0-dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/bootstrap-4.0.0-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/bootstrap-4.0.0-dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anime/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Integration1/ModalJumboCarousel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/ModalJumboCarousel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Integration1/Projet Final/confirmation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Projet Final/confirmation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Integration1/Projet Final/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/Projet Final/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Integration1/canvas/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/canvas/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Integration1/forms/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Integration1/forms/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/src/components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/src/components/App/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/src/components/App/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/src/components/Catalogue/Catalogue.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/src/components/Catalogue/Catalogue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/src/components/Categorie/Categorie.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/src/components/Categorie/Categorie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/src/components/TvShow/TvShow.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2React/becflix/becflix/src/components/TvShow/TvShow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2React/bottin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2React/bottin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2React/bottin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2React/bottin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation2React/bottin/src/Components/Connexion.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation2React/bottin/src/Components/Connexion.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1bzU2DM2Dxe6x0tbbOuMGFRZZjs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Cesar\Documents\GitHub\AEC_Front_End\Integration2\I2examen1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="951df8f0-4487-41fd-b99f-71653008861a" name="Default Changelist" comment="" />
+      <created>1589634206948</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589634206948</updated>
+      <workItem from="1589634208254" duration="6892000" />
+      <workItem from="1589903822451" duration="4659000" />
+      <workItem from="1590016794866" duration="5134000" />
+      <workItem from="1590237243187" duration="24998000" />
+      <workItem from="1590842990155" duration="961000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

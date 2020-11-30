@@ -1,0 +1,24 @@
+<mat-grid-list cols="3" rowHeight="2:1">
+  <!-- {{miniforfaitData}} -->
+  <mat-grid-tile>
+    <app-miniforfait [miniforfaitData]="verifiedVedetteArray[0]"></app-miniforfait>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <app-miniforfait [miniforfaitData]="verifiedVedetteArray[1]"></app-miniforfait>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <app-miniforfait [miniforfaitData]="verifiedVedetteArray[2]"></app-miniforfait>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="1" rowHeight="2:1">
+  <mat-grid-tile>
+    <app-forfait  [forfaits]="forfait[0]"></app-forfait>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <app-forfait [forfaits]="forfait[1]"></app-forfait>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <app-formulaire-forfait></app-formulaire-forfait>
+  </mat-grid-tile>
+</mat-grid-list>

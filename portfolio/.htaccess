@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^cesarfranco\.lechariotmedia\.com$
+RewriteRule ^/?$ "https\:\/\/cesarfranco\.ca\/" [R=301,L]
+Header set Referrer-Policy "origin"
