@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DetailForfaitComponent } from './detail-forfait.component';
+import { SearchformComponent } from './searchform.component';
 
-describe('DetailForfaitComponent', () => {
-  let component: DetailForfaitComponent;
-  let fixture: ComponentFixture<DetailForfaitComponent>;
+describe('SearchformComponent', () => {
+  let component: SearchformComponent;
+  let fixture: ComponentFixture<SearchformComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DetailForfaitComponent ]
+      declarations: [ SearchformComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DetailForfaitComponent);
+    fixture = TestBed.createComponent(SearchformComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

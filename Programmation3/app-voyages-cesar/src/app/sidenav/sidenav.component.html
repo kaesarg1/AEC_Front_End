@@ -1,0 +1,14 @@
+<mat-drawer-container class="container" autosize>
+  <mat-drawer #drawer class="sidenav" mode="side">
+    <app-searchform></app-searchform>
+  </mat-drawer>
+
+  <div class="sidenav-content">
+    <button type="button" mat-button (click)="drawer.toggle()">
+      <i class="material-icons">search</i>
+      <p>Recherchez votre Forfait</p>
+    </button>
+   
+  </div>
+
+</mat-drawer-container>

@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Forfait } from './forfait';
 import { FORFAITS } from './mock-forfaits'
 
 @Component({

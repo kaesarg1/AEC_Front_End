@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { MiniforfaitComponent } from './miniforfait.component';
 
 describe('MiniforfaitComponent', () => {

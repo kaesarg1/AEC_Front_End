@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Forfait } from '../forfait';
-import { FORFAITS } from '../mock-forfaits'
+
 
 @Component({
   selector: 'app-miniforfait',
@@ -9,6 +9,7 @@ import { FORFAITS } from '../mock-forfaits'
 })
 export class MiniforfaitComponent implements OnInit {
   @Input() miniforfaitData : Forfait;
+
   // forfaits : Forfait[] = FORFAITS;
   constructor() {}
 

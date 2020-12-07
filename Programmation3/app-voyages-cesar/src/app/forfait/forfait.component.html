@@ -1,14 +1,15 @@
 
 <div>
-    <div>{{forfaits.destination}}</div>
-    <div>{{forfaits.villeDepart}}</div>
-    <div>{{forfaits.hotel.nom}}</div>
-    <div>{{forfaits.hotel.adresse}}</div>
-    <div>{{forfaits.hotel.etoiles}}</div>
-    <div>{{forfaits.hotel.nmChambres}}</div>
-    <div>{{forfaits.hotel.photo}}</div>
-    <div>{{forfaits.hotel.caracteristiques}}</div>
-    <div>{{forfaits.prix}}</div>
-    <div>{{forfaits.dateDepart}}</div>
-    <div>{{forfaits.dateRetour}}</div>
+    <div>Destination: {{forfaits.destination}}</div>
+    <div>Ville de Depart: {{forfaits.villeDepart}}</div>
+    <div>Hotel: {{forfaits.hotel.nom}}</div>
+    <div>Adresse: {{forfaits.hotel.adresse}}</div>
+    <app-etoiles [nbEtoiles]="forfaits.hotel.etoiles"></app-etoiles>
+    <div>Chambres {{forfaits.hotel.nmChambres}}</div>
+    <div><img src={{forfaits.hotel.photo}} width="300" height="200">
+    </div>
+    <div>Caracteristiques: {{forfaits.hotel.caracteristiques}}</div>
+    <div>Pris: ${{forfaits.prix}}</div>
+    <div>Date de Depart{{forfaits.dateDepart}}</div>
+    <div>Date de Retour{{forfaits.dateRetour}}</div>
 </div>

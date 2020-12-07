@@ -1,0 +1,105 @@
+
+<p>
+  <mat-form-field class="example-full-width">
+    <input type="text" placeholder="Destination" aria-label="Text" matInput [formControl]="destinationVille"
+      [matAutocomplete]="auto" required>
+    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+      <mat-option *ngFor="let destinationCity of cities" [value]="destinationCity">
+        {{destinationCity}}
+      </mat-option>
+    </mat-autocomplete>
+    <mat-error *ngIf="destinationVille.invalid">field is required</mat-error>
+    
+  </mat-form-field>
+</p>
+<p>
+  <mat-form-field class="example-full-width">
+    <input type="text" placeholder="Ville de départ" aria-label="Text" matInput [formControl]="departVille"
+      [matAutocomplete]="auto" required>
+    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+      <mat-option *ngFor="let departCity of cities" [value]="departCity">
+        {{departCity}}
+      </mat-option>
+    </mat-autocomplete>
+    <mat-error *ngIf="departVille.invalid">field is required</mat-error>
+
+  </mat-form-field>
+</p>
+<p>
+  <mat-form-field>
+      <input type="text" placeholder="Hotel" aria-label="String" matInput [formControl]="hotelControl" required minlength="2">
+      <mat-hint>Nom de l’hôtel</mat-hint>
+    </mat-form-field>
+    
+    <mat-error *ngIf="(hotelControl.dirty || hotelControl.touched) && hotelControl.invalid">field is mandatory and must be
+      at least 2 characteres</mat-error>
+
+</p>
+<p>
+  <mat-form-field>
+      <input type="text" placeholder="Hotel" aria-label="String" matInput [formControl]="coordonessControl" required  minlength="2">
+      <mat-hint>Coordonnées (Adresse)</mat-hint>
+    </mat-form-field>
+    <mat-error *ngIf="(coordonessControl.dirty || coordonessControl.touched) && coordonessControl.invalid">field is mandatory and must be
+      at least 2 characteres</mat-error>
+
+</p>
+<p>
+  <!-- <mat-form-field> -->
+    <mat-label>Nombre d’étoiles</mat-label>
+      <mat-slider thumbLabel tickInterval="0.5" min="1" max="5" step="0.5" value="1.5" [formControl]="etoilesControl"></mat-slider>
+    <!-- </mat-form-field> -->
+</p>
+<p>
+  <mat-form-field>
+    <input matInput type="number" placeholder="Nombre de chambres" [formControl]="chambressControl" min="10" required>
+    <!-- <mat-hint>Coordonnées (Adresse)</mat-hint> -->
+  </mat-form-field>
+  <mat-error *ngIf="(chambressControl.dirty || chambressControl.touched ) && chambressControl.invalid">field is
+    mandatory</mat-error>
+  <mat-error *ngIf="(chambressControl.dirty  && chambressControl.value < 1 )">field must be bigger than 0</mat-error>
+</p>
+<!-- <p> -->
+  <mat-label>Caractéristiques</mat-label>
+  <section class="example-section">
+    <br>
+    <mat-checkbox class="example-margin" [formControl]="caracreristiquesControl">Face à la plage</mat-checkbox> &nbsp;
+    <mat-checkbox class="example-margin" [formControl]="caracreristiquesControl">Dans un lieu situé à proximité d'un parc/lieu naturel</mat-checkbox>&nbsp;
+    <mat-checkbox class="example-margin" [formControl]="caracreristiquesControl">Ascenseur</mat-checkbox>&nbsp;
+    <mat-checkbox class="example-margin" [formControl]="caracreristiquesControl">Miniclub</mat-checkbox>&nbsp;
+    <mat-checkbox class="example-margin" [formControl]="caracreristiquesControl">Plage</mat-checkbox>&nbsp;
+    <mat-checkbox class="example-margin" [formControl]="caracreristiquesControl">Piscine</mat-checkbox>&nbsp;
+    <mat-checkbox class="example-margin" [formControl]="caracreristiquesControl">Jacuzzy</mat-checkbox>&nbsp;
+    <mat-checkbox class="example-margin" [formControl]="caracreristiquesControl">déjeuner</mat-checkbox>&nbsp;
+    <mat-checkbox class="example-margin" [formControl]="caracreristiquesControl">court de tennis</mat-checkbox>&nbsp;
+    <br>
+  </section>
+  <br>
+<!-- </p> -->
+<p>
+  <mat-form-field appearance="fill">
+    <mat-label>Date de départ</mat-label>
+  <!-- #docregion toggle -->
+    <input matInput [matDatepicker]="depart" required [formControl]="departDateControl">
+    <mat-datepicker-toggle matSuffix [for]="depart"></mat-datepicker-toggle>
+    <mat-datepicker #depart></mat-datepicker>
+  <!-- #enddocregion toggle -->
+  </mat-form-field>
+  </p>
+  <p>
+  <mat-form-field appearance="fill">
+    <mat-label>Date de retour</mat-label>
+  <!-- #docregion toggle -->
+    <input matInput [matDatepicker]="retour" required [formControl]="retourControl">
+    <mat-datepicker-toggle matSuffix [for]="retour"></mat-datepicker-toggle>
+    <mat-datepicker #retour></mat-datepicker>
+  <!-- #enddocregion toggle -->
+  </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field>
+      <input matInput type="number" placeholder="Prix" [formControl]="prixControl" min="10" required>
+      <!-- <mat-hint>Coordonnées (Adresse)</mat-hint> -->
+    </mat-form-field>
+  </p>
+

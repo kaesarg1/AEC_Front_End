@@ -8,7 +8,7 @@ export const FORFAITS: Forfait [] = [
         hotel: {
             nom: 'Hotel Boutique Casona del Colegio',
             adresse: 'Carrera 6#32-84 Calle del Colegio, Centro, 130001',
-            etoiles: 5,
+            etoiles: 4,
             nmChambres: 13,
             photo: "https://cf.bstatic.com/xdata/images/hotel/max1280x900/184364758.webp?k=d6bf1c4dbe307c46b237793e363f973cdcf466b39bb9e1195f9d504637869b27&o=",
             caracteristiques: [
@@ -93,6 +93,31 @@ export const FORFAITS: Forfait [] = [
         dateDepart: '09/11/2020',
         dateRetour: '14/11/2020',
         prix: 1126,
+        rabais: 100,
+        forfaitVedette: true
+
+    },
+
+    {
+        destination: 'Medellin, Colombia',
+        villeDepart: 'Québec',
+        hotel: {
+            nom: 'Hotel Dann Carlton Medellín',
+            adresse: 'Cra 43A No. 7-50, El Poblado, 050001',
+            etoiles: 5,
+            nmChambres: 200,
+            photo: "https://cf.bstatic.com/images/hotel/max1280x900/677/6776399.jpg",
+            caracteristiques: [
+                "piscine",
+                "Business Centre avec acces Internet",
+                "Bar",
+                "Navette aéroport",
+                "Fitness Centre with Gym / Spa"
+            ],
+        },
+        dateDepart: '09/11/2020',
+        dateRetour: '14/11/2020',
+        prix: 1026,
         rabais: 100,
         forfaitVedette: true
 

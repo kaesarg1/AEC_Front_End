@@ -1,9 +1,15 @@
-<div >
-    <div>{{miniforfaitData.destination}}</div>
-    <!-- <div>{{miniforfaitData.villeDepart}}</div> -->
-    <div>{{miniforfaitData.hotel.nom}}</div>
-    <!-- <div>{{miniforfaitData.etoiles}}</div> -->
-    <div>{{miniforfaitData.prix}}</div>
-    <!-- <div>{{miniforfaitData.dateDepart}}</div>
-    <div>{{miniforfaitData.dateRetour}}</div> -->
+<div class="miniforfaits">
+    <div class="row">Destination: {{miniforfaitData.destination}}
+    </div>
+    <div>Ville de Depart: {{miniforfaitData.villeDepart}}
+    </div>
+    <div>Hotel: {{miniforfaitData.hotel.nom}}
+    </div>
+    <app-etoiles [nbEtoiles]="miniforfaitData.hotel.etoiles"></app-etoiles>
+    <div>Prix: $ {{miniforfaitData.prix}}
+    </div>
+    <div>Date de Depart: {{miniforfaitData.dateDepart}}
+    </div>
+    <div>Date de Retour: {{miniforfaitData.dateRetour}}
+    </div>
 </div>
