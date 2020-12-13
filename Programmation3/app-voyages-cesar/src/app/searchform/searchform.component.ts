@@ -7,7 +7,10 @@ import { map, startWith } from 'rxjs/operators';
   selector: 'app-searchform',
   templateUrl: './searchform.component.html',
   styleUrls: ['./searchform.component.css']
+  
 })
+
+
 export class SearchformComponent implements OnInit {
   departVille = new FormControl();
   destinationVille = new FormControl();
@@ -19,6 +22,7 @@ export class SearchformComponent implements OnInit {
   departDateControl = new FormControl();
   retourControl = new FormControl();
   prixControl = new FormControl();
+  
   
   public cities: string[] = [ "Bogota", "Cartagena", "Medellin", "Montreal", "Ottawa", "Québec", "Toronto"];
 

@@ -8,7 +8,7 @@
         {{destinationCity}}
       </mat-option>
     </mat-autocomplete>
-    <mat-error *ngIf="destinationVille.invalid">field is required</mat-error>
+    <mat-error *ngIf="destinationVille.invalid">Ce champ est obligatoire</mat-error>
     
   </mat-form-field>
 </p>
@@ -21,7 +21,7 @@
         {{departCity}}
       </mat-option>
     </mat-autocomplete>
-    <mat-error *ngIf="departVille.invalid">field is required</mat-error>
+    <mat-error *ngIf="departVille.invalid">Ce champ est obligatoire</mat-error>
 
   </mat-form-field>
 </p>
@@ -31,17 +31,15 @@
       <mat-hint>Nom de l’hôtel</mat-hint>
     </mat-form-field>
     
-    <mat-error *ngIf="(hotelControl.dirty || hotelControl.touched) && hotelControl.invalid">field is mandatory and must be
-      at least 2 characteres</mat-error>
+    <mat-error *ngIf="(hotelControl.dirty || hotelControl.touched) && hotelControl.invalid">Ce champ est obligatoire est la longueur minimale est de 2 caractères</mat-error>
 
 </p>
 <p>
   <mat-form-field>
-      <input type="text" placeholder="Hotel" aria-label="String" matInput [formControl]="coordonessControl" required  minlength="2">
+      <input type="text" placeholder="Hotel" aria-label="String" matInput [formControl]="coordonessControl" required  minlength="20">
       <mat-hint>Coordonnées (Adresse)</mat-hint>
     </mat-form-field>
-    <mat-error *ngIf="(coordonessControl.dirty || coordonessControl.touched) && coordonessControl.invalid">field is mandatory and must be
-      at least 2 characteres</mat-error>
+    <mat-error *ngIf="(coordonessControl.dirty || coordonessControl.touched) && coordonessControl.invalid">Ce champ est obligatoire est la longueur minimale est de 2 caractères</mat-error>
 
 </p>
 <p>
@@ -52,11 +50,10 @@
 </p>
 <p>
   <mat-form-field>
-    <input matInput type="number" placeholder="Nombre de chambres" [formControl]="chambressControl" min="10" required>
+    <input matInput type="number" placeholder="Nombre de chambres" [formControl]="chambressControl" min="1" max="5" required>
     <!-- <mat-hint>Coordonnées (Adresse)</mat-hint> -->
   </mat-form-field>
-  <mat-error *ngIf="(chambressControl.dirty || chambressControl.touched ) && chambressControl.invalid">field is
-    mandatory</mat-error>
+  <mat-error *ngIf="(chambressControl.dirty || chambressControl.touched ) && chambressControl.invalid">Ce champ est obligatoire</mat-error>
   <mat-error *ngIf="(chambressControl.dirty  && chambressControl.value < 1 )">field must be bigger than 0</mat-error>
 </p>
 <!-- <p> -->
@@ -70,8 +67,8 @@
     <mat-checkbox class="example-margin" [formControl]="caracreristiquesControl">Plage</mat-checkbox>&nbsp;
     <mat-checkbox class="example-margin" [formControl]="caracreristiquesControl">Piscine</mat-checkbox>&nbsp;
     <mat-checkbox class="example-margin" [formControl]="caracreristiquesControl">Jacuzzy</mat-checkbox>&nbsp;
-    <mat-checkbox class="example-margin" [formControl]="caracreristiquesControl">déjeuner</mat-checkbox>&nbsp;
-    <mat-checkbox class="example-margin" [formControl]="caracreristiquesControl">court de tennis</mat-checkbox>&nbsp;
+    <mat-checkbox class="example-margin" [formControl]="caracreristiquesControl">Déjeuner</mat-checkbox>&nbsp;
+    <mat-checkbox class="example-margin" [formControl]="caracreristiquesControl">Court de tennis</mat-checkbox>&nbsp;
     <br>
   </section>
   <br>
@@ -98,8 +95,7 @@
   </p>
   <p>
     <mat-form-field>
-      <input matInput type="number" placeholder="Prix" [formControl]="prixControl" min="10" required>
-      <!-- <mat-hint>Coordonnées (Adresse)</mat-hint> -->
+      <input matInput type="number" placeholder="Prix" [formControl]="prixControl" min="0" required>
     </mat-form-field>
   </p>
 

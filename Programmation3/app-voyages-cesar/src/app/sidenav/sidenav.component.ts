@@ -8,5 +8,4 @@ import { FORFAITS } from '../mock-forfaits';
 })
 export class SidenavComponent {
   forfait= FORFAITS;
-
 }
