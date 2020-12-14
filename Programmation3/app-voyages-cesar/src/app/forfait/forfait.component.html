@@ -25,7 +25,7 @@
     <div><img src={{forfaits.hotel.photo}} width="300" height="200">
     </div>
     <div>Caracteristiques: {{forfaits.hotel.caracteristiques}}</div>
-    <!-- <div>Prix: ${{forfaits.rabais > 0 ? forfaits.prix}} - {{}}</div> -->
+
     <div *ngIf="forfaits.rabais > 0">Prix:
         <s>${{forfaits.prix }}</s> - Prix final: <span>${{forfaits.prix - forfaits.rabais}}</span>
         

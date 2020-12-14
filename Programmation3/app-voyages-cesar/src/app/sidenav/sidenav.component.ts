@@ -7,5 +7,6 @@ import { FORFAITS } from '../mock-forfaits';
   styleUrls: ['./sidenav.component.css']
 })
 export class SidenavComponent {
+  opened= false;
   forfait= FORFAITS;
 }

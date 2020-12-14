@@ -1,14 +1,12 @@
-<mat-drawer-container class="container">
-  <mat-drawer #drawer class="sidenav" mode="side">
-    <app-searchform></app-searchform>
-  </mat-drawer>
 
-  <div class="sidenav-content">
-    <button type="button" mat-button (click)="drawer.toggle()">
-      <i class="material-icons">search</i>
-      <p>Recherchez votre Forfait</p>
-    </button>
-   
-  </div>
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="side" [(opened)]="opened">
+    <button (click)="sidenav.close()">Fermer</button>
+    <app-searchform></app-searchform></mat-sidenav>
+  <mat-sidenav-content>
+    <button (click)="opened=!opened">Recherchez votre forfait</button>
+    <app-forfait [forfaits]="forfait[0]"></app-forfait>
+    <app-forfait [forfaits]="forfait[1]"></app-forfait>
+  </mat-sidenav-content>
+</mat-sidenav-container>
 
-</mat-drawer-container>
