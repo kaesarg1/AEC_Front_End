@@ -1,3 +1,19 @@
+<!-- 
+<div>
+    <div>Destination: {{forfaits.destination}}</div>
+    <div>Ville de Depart: {{forfaits.villeDepart}}</div>
+    <div>Hotel: {{forfaits.hotel.nom}}</div>
+    <div>Adresse: {{forfaits.hotel.adresse}}</div>
+    <app-etoiles [nbEtoiles]="forfaits.hotel.etoiles"></app-etoiles>
+    <div>Chambres {{forfaits.hotel.nmChambres}}</div>
+    <div><img src={{forfaits.hotel.photo}} width="300" height="200">
+    </div>
+    <div>Caracteristiques: {{forfaits.hotel.caracteristiques}}</div>
+    <div>Prix: ${{forfaits.prix}}</div>
+    <div>Date de Depart{{forfaits.dateDepart}}</div>
+    <div>Date de Retour{{forfaits.dateRetour}}</div>
+</div> -->
+
 
 <div>
     <div>Destination: {{forfaits.destination}}</div>
@@ -9,7 +25,15 @@
     <div><img src={{forfaits.hotel.photo}} width="300" height="200">
     </div>
     <div>Caracteristiques: {{forfaits.hotel.caracteristiques}}</div>
-    <div>Pris: ${{forfaits.prix}}</div>
+    <!-- <div>Prix: ${{forfaits.rabais > 0 ? forfaits.prix}} - {{}}</div> -->
+    <div *ngIf="forfaits.rabais > 0">Prix:
+        <s>${{forfaits.prix }}</s> - Prix final: <span>${{forfaits.prix - forfaits.rabais}}</span>
+        
+    </div>
+    <div *ngIf="forfaits.rabais === 0 ">
+        <span>${{forfaits.prix}}</span>
+
+    </div>
     <div>Date de Depart{{forfaits.dateDepart}}</div>
     <div>Date de Retour{{forfaits.dateRetour}}</div>
 </div>
